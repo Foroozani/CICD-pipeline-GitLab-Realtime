@@ -1,5 +1,6 @@
+# a simple YML file for parallel stage
 stages:
-  # - test
+  - test
   - build
   - deploy
 
@@ -18,6 +19,11 @@ test-job:
   script:
     - echo 'This message is from test-job'
 
+test-job2:
+  stage: test
+  script:
+    - echo 'This message is from test-job in parallel with test1'
+
 deploy-job:
   stage: deploy
   script:
@@ -26,4 +32,4 @@ deploy-job:
 post-job:
   stage: .post
   script:
-    - echo 'This message is from .post-job'
+    - echo 'Done'
