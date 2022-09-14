@@ -3,5 +3,5 @@
 Build a paralel stage
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Foroozani/ComputerVision/blob/main/image/ssd-yolo.png">
+  <img width="460" height="300" src="https://github.com/Foroozani/CICD-pipeline-GitLab-Realtime/tree/main/images/img1.png">
 </p>
